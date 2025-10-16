@@ -46,8 +46,7 @@ const Hero = () => (
         justifyContent="center"
         alignItems="flex-end"
       ></Box>
-    </Container>
-    <Box>
+
       <Box
         component="img"
         src={"hero.png"}
@@ -60,7 +59,7 @@ const Hero = () => (
           mb: -20,
         }}
       />
-    </Box>
+    </Container>
   </Box>
 );
 
