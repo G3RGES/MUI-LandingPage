@@ -1,0 +1,29 @@
+import { Box } from "@mui/material";
+
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
+import ServicesOverview from "./Components/ServicesOverView/ServicesOverView";
+import Mentorship from "./Components/Mentor/Mentorship";
+import Freelance from "./Components/Freelance/Freelance";
+import ArcSection from "./Components/ArcSection/ArcSection";
+import Developers from "./Components/Developers/Developers";
+import Footer from "./Components/Footer/Footer";
+
+function App() {
+  return (
+    <Box>
+      <Navbar />
+      <Hero />
+      <Box>
+        <ServicesOverview />
+      </Box>
+      <Mentorship />
+      <Freelance />
+      <ArcSection />
+      <Developers />
+      <Footer />
+    </Box>
+  );
+}
+
+export default App;
