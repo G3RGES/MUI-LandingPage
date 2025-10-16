@@ -47,7 +47,7 @@ const Hero = () => (
         alignItems="flex-end"
       ></Box>
     </Container>
-    <Box textAlign="center">
+    <Box>
       <Box
         component="img"
         src={"hero.png"}
