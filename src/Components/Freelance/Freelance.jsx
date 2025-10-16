@@ -18,7 +18,6 @@ const Freelance = () => (
         <Grid item xs={12} md={6}>
           <Box
             sx={{
-              backgroundColor: "#f3f4f6",
               p: 4,
               borderRadius: 2,
               minHeight: 320,
