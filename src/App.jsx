@@ -11,18 +11,18 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <Box>
+    <>
       <Navbar />
       <Hero />
-      <Box>
-        <ServicesOverview />
-      </Box>
+
+      <ServicesOverview />
+
       <Mentorship />
       <Freelance />
       <ArcSection />
       <Developers />
       <Footer />
-    </Box>
+    </>
   );
 }
 
