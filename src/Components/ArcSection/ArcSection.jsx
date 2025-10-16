@@ -1,7 +1,5 @@
 import React from "react";
 import { Box, Container, Typography, Grid, Link } from "@mui/material";
-import arcImage from "../../../public/visit-arc.svg";
-// import arcImage from "./47f36359-e438-41f9-a7a0-f071efb2e377.png"; // use your uploaded image
 
 const ArcSection = () => (
   <Box sx={{ py: 10, backgroundColor: "background.default" }}>
@@ -18,7 +16,7 @@ const ArcSection = () => (
           >
             <Box
               component="img"
-              src={arcImage}
+              src={"/visit-arc.svg"}
               alt="Mentorship session"
               sx={{
                 width: "100%",
