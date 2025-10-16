@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Container,
-  Typography,
-  Button,
-  Stack,
-  Paper,
-} from "@mui/material";
+import { Box, Container, Typography, Button } from "@mui/material";
 
 const Hero = () => (
   <Box
@@ -21,7 +14,7 @@ const Hero = () => (
       <Typography variant="h3" fontWeight="bold" mb={2}>
         Find a developer for
       </Typography>
-      <Typography variant="h3" fontWeight="bold" mb={6}>
+      <Typography variant="h3" fontWeight="bold" mb={{ xs: 4, md: 6 }}>
         live mentorship & freelance projects
       </Typography>
 
