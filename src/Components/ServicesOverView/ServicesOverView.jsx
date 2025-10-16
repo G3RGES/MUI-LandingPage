@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Container, Typography } from "@mui/material";
 
 const ServicesOverview = () => (
-  <Box py={8}>
+  <Box py={8} sx={{ mb: { xs: 10, md: 8 } }}>
     <Container maxWidth="lg">
       <Typography
         variant="h4"
