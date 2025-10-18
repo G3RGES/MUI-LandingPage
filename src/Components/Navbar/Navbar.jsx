@@ -167,6 +167,18 @@ export default function Navbar() {
           >
             Login
           </Link>
+          <Link
+            to="/about"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            About
+          </Link>
+          <Link
+            to="/contact"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            Contact
+          </Link>
         </Box>
 
         {/* Mobile Drawer */}
