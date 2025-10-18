@@ -11,36 +11,33 @@ import Developers from "./Components/Developers/Developers";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Login from "./pages/Login";
-import MyThemeContextProvider from "./context/ThemeContext";
 
 function App() {
   return (
     <>
-      <MyThemeContextProvider>
-        <BrowserRouter>
-          <CssBaseline />
-          <Navbar />
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
-                  <Hero />
-                  <ServicesOverview />
-                  <Mentorship />
-                  <Freelance />
-                  <ArcSection />
-                  <Developers />
-                  <Footer />
-                </>
-              }
-            />
-            <Route path="/about" element={<h1>About</h1>} />
-            <Route path="/contact" element={<h1>Contact</h1>} />
-            <Route path="/login" element={<Login />} />
-          </Routes>
-        </BrowserRouter>
-      </MyThemeContextProvider>
+      <BrowserRouter>
+        <CssBaseline />
+        <Navbar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <ServicesOverview />
+                <Mentorship />
+                <Freelance />
+                <ArcSection />
+                <Developers />
+                <Footer />
+              </>
+            }
+          />
+          <Route path="/about" element={<h1>About</h1>} />
+          <Route path="/contact" element={<h1>Contact</h1>} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
